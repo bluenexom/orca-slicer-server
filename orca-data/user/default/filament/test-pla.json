@@ -1,0 +1,12 @@
+{
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_settings_id": [
+		"test-pla"
+	],
+	"from": "User",
+	"inherits": "Generic PLA High Speed @Creality K2-all",
+	"name": "test-pla",
+	"version": "2.3.2.89"
+}
