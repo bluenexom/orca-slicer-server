@@ -62,6 +62,8 @@ def slice_model(model,filament,layer_height,infill):
                 layer_height,
                 "--sparse-infill-density",
                 f"{infill}%",
+                "--arrange",
+                "1",
                 "--outputdir",
                 out_dir,
                 model,
