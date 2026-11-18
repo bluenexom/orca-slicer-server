@@ -2,13 +2,13 @@
 	"enable_support": "1",
 	"from": "User",
 	"inherits": "0.16mm Optimal @Creality K2 Plus 0.4 nozzle",
-	"name": "test-process",
+	"name": "fdm",
 	"print_extruder_id": [
 		"1"
 	],
 	"print_extruder_variant": [
 		"Direct Drive Standard"
 	],
-	"print_settings_id": "test-process",
+	"print_settings_id": "fdm",
 	"version": "2.3.2.89"
 }

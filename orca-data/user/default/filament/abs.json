@@ -3,10 +3,10 @@
 		"Direct Drive Standard"
 	],
 	"filament_settings_id": [
-		"test-pla"
+		"abs"
 	],
 	"from": "User",
-	"inherits": "Generic PLA High Speed @Creality K2-all",
-	"name": "test-pla",
+	"inherits": "Generic ABS @K2 Plus-all",
+	"name": "abs",
 	"version": "2.3.2.89"
 }

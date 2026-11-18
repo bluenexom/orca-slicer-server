@@ -1,0 +1,12 @@
+{
+	"filament_extruder_variant": [
+		"Direct Drive Standard"
+	],
+	"filament_settings_id": [
+		"tpu"
+	],
+	"from": "User",
+	"inherits": "Generic TPU @K2 Plus-all",
+	"name": "tpu",
+	"version": "2.3.2.89"
+}

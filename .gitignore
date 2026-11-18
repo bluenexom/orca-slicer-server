@@ -179,3 +179,9 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+orca-data/log/
+orca-data/cache/
+orca-data/*.lock
+orca-data/*.bak
+orca-data/user_backup-*/

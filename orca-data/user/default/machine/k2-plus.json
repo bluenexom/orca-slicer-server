@@ -1,13 +1,13 @@
 {
 	"from": "User",
 	"inherits": "Creality K2 Plus 0.4 nozzle",
-	"name": "test-k2-plus",
+	"name": "k2-plus",
 	"printer_extruder_id": [
 		"1"
 	],
 	"printer_extruder_variant": [
 		"Direct Drive Standard"
 	],
-	"printer_settings_id": "test-k2-plus",
+	"printer_settings_id": "k2-plus",
 	"version": "2.3.2.89"
 }
