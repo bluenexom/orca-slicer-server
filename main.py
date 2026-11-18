@@ -7,12 +7,14 @@ from slice import FILAMENTS, LAYER_HEIGHT, slice_model
 from fastapi import FastAPI,File,Form,UploadFile,HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+ALLOWED_ORIGINS = os.environ.get("ALLOWED_ORIGINS", "http://localhost:5173").split(",")
+
 app = FastAPI()
 slice_lock = threading.Lock()
 
 app.add_middleware(
         CORSMiddleware,
-        allow_origins=["http://localhost:5173"],
+        allow_origins=ALLOWED_ORIGINS,
         allow_methods=["POST"],
         )
 
